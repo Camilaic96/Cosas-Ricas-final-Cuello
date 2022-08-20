@@ -153,6 +153,274 @@ body {
   background-image: url(../assets/img/alfajores-4.png);
 }
 
+.main-index {
+  padding-top: 100px;
+}
+.main-index .sec-index {
+  min-height: 40vh;
+  padding: 20px 20px 40px 20px;
+}
+.main-index .sec-index h3 {
+  background-color: #881c1c;
+  text-shadow: 0 0 15px black;
+  padding: 10px;
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.main-index .sec-index h4 {
+  padding: 10px;
+  font-size: 24px;
+  color: #881c1c;
+  font-style: italic;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #fff;
+}
+.main-index .sec-index h5 {
+  padding: 10px;
+  font-size: 24px;
+  color: #4b0303;
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+}
+.main-index .sec-index .prod-index {
+  width: 100%;
+  padding: 10px;
+}
+.main-index .sec-index .prod-index .carousel-index {
+  width: 100%;
+  border: #fff solid 2px;
+  box-shadow: 0 0 15px #4b0303;
+}
+.main-index .sec-index .prod-index .carousel-index img {
+  box-shadow: 0 0 15px #4b0303;
+}
+.main-index .sec-index p {
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+  text-shadow: 0 0 15px #fff;
+}
+.main-index .sec-index .boton-index {
+  margin: 30px;
+  background-color: rgb(212, 32, 32);
+  border: solid 3px rgb(221, 174, 174);
+  border-radius: 10%;
+  box-shadow: 0 0 15px #881c1c;
+  padding: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+.main-index .sec-index .boton-index:hover {
+  background-color: #881c1c;
+  border: solid 4px #fff;
+  color: #fff;
+  text-decoration: none;
+}
+.main-index .sec-index .img-logo-index {
+  box-shadow: 0 0 25px #881c1c;
+}
+.main-index .sec-index iframe {
+  height: 350px;
+  width: 100%;
+  box-shadow: 0 0 15px #4b0303;
+}
+
+.main-productos .sec-productos {
+  padding: 100px 20px 20px 20px;
+}
+.main-productos .sec-productos h3 {
+  padding: 10px;
+  font-size: 24px;
+  color: #4b0303;
+  font-family: "Pacifico", cursive;
+  font-style: italic;
+  box-shadow: 0 0 15px #4b0303;
+}
+.main-productos .sec-productos .carousel .carousel-prod {
+  width: 100%;
+  border: #fff solid 2px;
+  box-shadow: 0 0 15px #4b0303;
+}
+.main-productos .sec-productos .carousel .carousel-prod img {
+  box-shadow: 0 0 15px #4b0303;
+}
+.main-productos .sec-productos .carousel .carousel-caption a button {
+  background-color: #881c1c;
+  border: solid 3px #fff;
+  border-radius: 10%;
+  font-size: 18px;
+}
+.main-productos .sec-productos .carousel .carousel-caption a button:hover {
+  background-color: #4b0303;
+  border: solid 4px #fff;
+  color: #fff;
+  text-decoration: none;
+}
+.main-productos .sec-productos p {
+  padding: 20px;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 0 5px #4b0303;
+}
+
+.main-galeria .galeria {
+  padding-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  background-color: #706e6e;
+  padding: 20px;
+}
+.main-galeria .galeria .item {
+  height: 400px;
+  width: auto;
+  margin: 10px;
+  border: solid 1px #23201f;
+  background-position: center;
+  background-size: cover;
+}
+.main-galeria .galeria .item1 {
+  background-image: url(../assets/img/tortas-1.webp);
+}
+.main-galeria .galeria .item2 {
+  background-image: url(../assets/img/tortas-2.webp);
+}
+.main-galeria .galeria .item3 {
+  background-image: url(../assets/img/tortas-3.webp);
+}
+.main-galeria .galeria .item4 {
+  background-image: url(../assets/img/tortas-4.webp);
+}
+.main-galeria .galeria .item5 {
+  background-image: url(../assets/img/postres-1.webp);
+}
+.main-galeria .galeria .item6 {
+  background-image: url(../assets/img/postres-2.webp);
+}
+.main-galeria .galeria .item7 {
+  background-image: url(../assets/img/postres-3.webp);
+}
+.main-galeria .galeria .item8 {
+  background-image: url(../assets/img/postres-4.webp);
+}
+.main-galeria .galeria .item9 {
+  background-image: url(../assets/img/muffins-1.webp);
+}
+.main-galeria .galeria .item10 {
+  background-image: url(../assets/img/muffins-2.webp);
+}
+.main-galeria .galeria .item11 {
+  background-image: url(../assets/img/muffins-3.webp);
+}
+.main-galeria .galeria .item12 {
+  background-image: url(../assets/img/muffins-4.webp);
+}
+.main-galeria .galeria .item13 {
+  background-image: url(../assets/img/alfajores-1.webp);
+}
+.main-galeria .galeria .item14 {
+  background-image: url(../assets/img/alfajores-2.webp);
+}
+.main-galeria .galeria .item15 {
+  background-image: url(../assets/img/alfajores-3.webp);
+}
+.main-galeria .galeria .item16 {
+  background-image: url(../assets/img/alfajores-4.webp);
+}
+.main-galeria .galeria .item17 {
+  background-image: url(../assets/img/caja-1.webp);
+}
+.main-galeria .galeria .item18 {
+  background-image: url(../assets/img/caja-2.webp);
+}
+.main-galeria .galeria .item19 {
+  background-image: url(../assets/img/caja-3.webp);
+}
+.main-galeria .galeria .item20 {
+  background-image: url(../assets/img/caja-4.webp);
+}
+
+.main-sobreMi {
+  padding-top: 100px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-sobreMi .sec-sobreMi {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 10px 10%;
+  padding: 20px;
+  align-self: center;
+  border-radius: 5%;
+}
+.main-sobreMi .sec-sobreMi h3 {
+  padding: 10px;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 0 0 15px #881c1c;
+}
+.main-sobreMi .sec-sobreMi h3 span {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.main-sobreMi .sec-sobreMi p {
+  padding: 10px;
+  font-size: 16px;
+  color: #000;
+  text-shadow: 0 0 5px #fff;
+}
+.main-sobreMi .sec-sobreMi img {
+  box-shadow: 0 0 15px #4b0303;
+}
+
+.main-contacto {
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-contacto .datos-contacto, .main-contacto .form-contacto {
+  height: auto;
+  margin: 20px;
+  background-color: rgba(35, 32, 31, 0.8);
+  border: solid 1px #fff;
+  border-radius: 5%;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  display: none;
+}
+.main-contacto .datos-contacto a, .main-contacto .form-contacto a {
+  color: #fff;
+  text-decoration: none;
+}
+.main-contacto .datos-contacto a:hover, .main-contacto .form-contacto a:hover {
+  color: #881c1c;
+}
+.main-contacto .form-contacto {
+  background-color: rgba(136, 28, 28, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+.main-contacto .form-contacto .complForm {
+  width: 100%;
+}
+.main-contacto .form-contacto .botonEnviar {
+  background-color: #23201f;
+  border: solid 2px #fff;
+  padding: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+.main-contacto .form-contacto .botonEnviar:hover {
+  background-color: #4b0303;
+}
+
 .boton-subir {
   z-index: 15;
   position: fixed;

@@ -109,10 +109,10 @@
         </div>
         <!-- jumbotron fin -->
     </header>
-    <main class="main-contacto" id="main">
+    <main class="main-contacto text-center" id="main">
         <!-- section daatos contacto inicio-->
         <section class="datos-contacto">
-            <p><i class="fa-solid fa-phone"></i> cel: <span>3462 64-3561</span></p>
+            <a href="https://wa.me/543462643561"><i class="fa-solid fa-phone"></i> cel: <span>3462 64-3561</span></a>
             <div>
                 <p>Síguenos en <span>nuestras redes</span></p>
                 <a href="https://www.instagram.com/cosasricasvt/"><i class="fa-brands fa-instagram"></i></a>
@@ -124,7 +124,23 @@
         <!-- section daatos contacto fin-->
 
         <!-- section formulario contacto inicio-->
-        <section class="form-contacto"></section> <!--AGREGAR FORMULARIO-->
+        <section class="form-contacto">
+            <form action="" method="post" enctype="application/x-www-form-urlencoded">
+                <label for="nombre" class="textoForm">Nombre y apellido</label>
+                <input type="text" name="nombre" id="" class="complForm" required><br>
+
+                <label for="cel" class="textoForm">Teléfono</label>
+                <input type="number" name="cel" id="" class="complForm" required><br>
+
+                <label for="correo" class="textoForm">Correo</label>
+                <input type="email" name="correo" id="" class="complForm" required><br>
+
+                <label for="mensaje" class="textoForm">Mensaje</label>
+                <textarea name="mensaje" id="" cols="30" rows="2" class="complForm" required></textarea>
+
+                <input type="submit" class="botonEnviar">
+            </form>
+        </section>
         <!-- section formulario contacto fin-->
     </main>
     <footer>

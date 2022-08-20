@@ -48,6 +48,221 @@ body {
     background-image: url(../assets/img/alfajores-4.png);
 }
 
+.main-index{
+    padding-top: $heightNav;
+    & .sec-index{
+        min-height: 40vh;
+        padding: 20px 20px 40px 20px;
+
+        & h3 {
+            background-color: $colorBordoClaro;
+            text-shadow: $sombra-15-negro;
+            @include text (10px, 28px, #fff);
+            margin-bottom: 20px;
+        }
+        & h4{
+            @include text (10px, 24px, $colorBordoClaro);
+            font-style: italic;
+            text-transform: uppercase;
+            text-shadow: $sombra-15-blanco;
+        }
+        & h5{
+            @include text (10px, 24px, $colorBordo);
+            font-family: 'Pacifico', cursive;
+            font-style: italic;
+        }
+        & .prod-index {
+            width: 100%;
+            padding: 10px;
+            
+            & .carousel-index{
+                width: 100%;
+                border: #fff solid 2px;
+                box-shadow: $sombra-15-bordo;
+
+                & img {
+                    box-shadow: $sombra-15-bordo;
+                }
+            }
+        }
+        & p{
+            @include text (10px, 16px, black);
+            text-shadow: $sombra-15-blanco;
+        }
+        & .boton-index {
+            margin: 30px;
+            background-color: rgb(212, 32, 32);
+            border: solid 3px rgb(221, 174, 174);
+            border-radius: 10%;
+            box-shadow: $sombra-15-bordoClaro;
+            @include text (5px, 18px, #fff);
+        }
+        & .boton-index:hover {
+            background-color: $colorBordoClaro;
+            border: solid 4px #fff;
+            color: #fff;
+            text-decoration: none;
+        }
+        & .img-logo-index {
+            box-shadow: 0 0 25px $colorBordoClaro;
+        }
+        & iframe {
+            height: 350px;
+            width: 100%;
+            box-shadow: $sombra-15-bordo;
+        }
+    }
+}
+
+.main-productos{
+    & .sec-productos{
+        padding: $heightNav 20px 20px 20px;
+        & h3{
+            @include text (10px, 24px, $colorBordo);
+            font-family: 'Pacifico', cursive;
+            font-style: italic;
+            box-shadow: $sombra-15-bordo;
+        }
+        & .carousel{
+            & .carousel-prod{
+                width: 100%;
+                border: #fff solid 2px;
+                box-shadow: 0 0 15px $colorBordo;
+
+                & img {
+                    box-shadow: 0 0 15px $colorBordo;
+                }
+            }
+            & .carousel-caption {
+                & a {
+                    & button {
+                        background-color: $colorBordoClaro;
+                        border: solid 3px #fff;
+                        border-radius: 10%;
+                        font-size: 18px;
+                    }
+                    & button:hover {
+                        background-color: $colorBordo;
+                        border: solid 4px #fff;
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        & p{
+            @include text (20px, 18px, #fff);
+            text-shadow: $sombra-5-bordo;
+        }
+    }
+}
+
+.main-galeria{
+    & .galeria {
+        padding-top: $heightNav;
+        width: 100%;
+        min-height: 100vh;
+        display: grid;
+        background-color: #706e6e;
+        padding: 20px;
+
+        & .item{
+            height: 400px;
+            width: auto;
+            margin: 10px;
+            border: solid 1px $colorGris;
+            background-position: center;
+            background-size: cover;
+        }
+
+        $a: 0;
+        @each $productos in tortas , postres , muffins , alfajores , caja {
+            @for $i from 1 through 4 {
+                .item#{$i+$a}{
+                    background-image: url(../assets/img/#{$productos}-#{$i}.webp);
+                }
+            }
+            $a: $a+4;  
+        }
+    }
+}
+
+.main-sobreMi {
+    padding-top: $heightNav;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    & .sec-sobreMi {
+        background-color: rgba(255, 255, 255, 0.3);
+        margin: 10px 10%;
+        padding: 20px;
+        align-self: center;
+        border-radius: 5%;
+        
+        & h3 {
+            @include text (10px, 40px, #fff);
+            text-shadow: $sombra-15-bordoClaro;
+
+            & span {
+                display: block;
+                @include text (10px, 20px, #fff);
+            }
+        }
+        & p {
+            @include text (10px, 16px, #000);
+            text-shadow: $sombra-5-blanco;
+        }
+        & img {
+            box-shadow: $sombra-15-bordo;
+        }
+    }
+}
+
+.main-contacto{
+    padding-top: $heightNav;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+
+    & .datos-contacto{
+        height: auto;
+        margin: 20px;
+        background-color: transparentize($colorGris, 0.2);
+        border: solid 1px #fff;
+        border-radius: 5%;
+        justify-content: space-evenly;
+        @include text (20px, 20px, #fff);
+        display: none;
+
+        & a {
+            color: #fff;
+            text-decoration: none;
+        }
+        & a:hover {
+            color: $colorBordoClaro;
+        }
+    }
+    & .form-contacto{
+        @extend .datos-contacto;
+        background-color: transparentize($colorBordoClaro, 0.2);
+        display: flex;
+        flex-direction: column;
+
+        & .complForm {
+            width: 100%;
+        }
+        & .botonEnviar {
+            background-color: $colorGris;
+            border: solid 2px #fff;
+            @include text (5px, 20px, #fff);
+        }
+        & .botonEnviar:hover {
+            background-color: $colorBordo;
+        }
+    }
+}
+
 .boton-subir {
     z-index: 15;
     position: fixed;
