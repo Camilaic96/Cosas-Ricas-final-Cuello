@@ -34,7 +34,80 @@
 </head>
 <body>
     <header class="header header-galeria">
-        <nav></nav>
+        <!-- barra inicio -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <!-- logo nav inicio -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/logo.webp" alt="logo Cosas Ricas" class="logo">
+                <h1><em><strong> Cosas <span>Ricas</span></strong></em></h1>
+            </a>
+            <!-- logo nav fin -->
+            
+            <!-- botón hamburguesa nav inicio -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- botón hamburguesa nav fin -->
+
+            <!-- lista secciones nav inicio -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./productos.html">Productos<i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <ul class="navbar-nav submenuProd">
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#tortas">Tortas</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#postres">Postres</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#muffins">Muffins y cookies</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#alfajores">Alfajores</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#cajasDulces">Cajas dulces</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./sobre-mi.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item redesNav">
+                        <a href="https://www.instagram.com/cosasricasvt/"><i
+                                class="fa-brands fa-instagram redesNav-item"></i></a>
+                        <a href="https://www.facebook.com/cosasricasvt"><i
+                                class="fa-brands fa-facebook-f redesNav-item"></i></a>
+                        <a href="https://wa.me/543462643561"><i class="fa-brands fa-whatsapp redesNav-item"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- lista secciones nav fin -->
+        </nav>
+        <!-- barra fin -->
+
+        <!-- jumbotron inicio -->
+        <div class="jumbotron jumbotron-fluid w-100">
+            <div class="container w-50">
+                <h2>Endulzando los días de Venado Tuerto</h2>
+                <p class="mx-auto">Encontranos en nuestras redes:
+                    <span class="redes d-block">
+                        <a href="https://www.instagram.com/cosasricasvt/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/cosasricasvt"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/543462643561"><i class="fa-brands fa-whatsapp"></i></a>
+                    </span>
+                </p>
+                <a href="./productos.html"><button type="button" class="btn btn-danger mx-auto">Ver productos</button></a>
+            </div>
+        </div>
+        <!-- jumbotron fin -->
     </header>
     <main class="main-galeria" id="main">
         <!-- section carga de imagenes con div inicio-->

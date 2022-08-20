@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,15 +27,90 @@
     <!----------- linkeo libreria AOS comienzo -------------->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!----------- linkeo libreria AOS fin ------------------->
-    
+
     <!----------- linkeo archivo css comienzo ------------------->
     <link rel="stylesheet" href="../scss/estilos.css">
     <!----------- linkeo archivo css fin ------------------------>
     <title>Nuestros productos</title>
 </head>
+
 <body>
     <header class="header header-productos">
-        <nav></nav>
+        <!-- barra inicio -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <!-- logo nav inicio -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/img/logo.webp" alt="logo Cosas Ricas" class="logo">
+                <h1><em><strong> Cosas <span>Ricas</span></strong></em></h1>
+            </a>
+            <!-- logo nav fin -->
+
+            <!-- botón hamburguesa nav inicio -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- botón hamburguesa nav fin -->
+
+            <!-- lista secciones nav inicio -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./productos.html">Productos<i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <ul class="navbar-nav submenuProd">
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#tortas">Tortas</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#postres">Postres</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#muffins">Muffins y cookies</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#alfajores">Alfajores</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./productos.html#cajasDulces">Cajas dulces</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./sobre-mi.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="dropdown-item" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item redesNav">
+                        <a href="https://www.instagram.com/cosasricasvt/"><i
+                                class="fa-brands fa-instagram redesNav-item"></i></a>
+                        <a href="https://www.facebook.com/cosasricasvt"><i
+                                class="fa-brands fa-facebook-f redesNav-item"></i></a>
+                        <a href="https://wa.me/543462643561"><i class="fa-brands fa-whatsapp redesNav-item"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- lista secciones nav fin -->
+        </nav>
+        <!-- barra fin -->
+
+        <!-- jumbotron inicio -->
+        <div class="jumbotron jumbotron-fluid w-100">
+            <div class="container w-50">
+                <h2>Endulzando los días de Venado Tuerto</h2>
+                <p class="mx-auto">Encontranos en nuestras redes:
+                    <span class="redes d-block">
+                        <a href="https://www.instagram.com/cosasricasvt/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/cosasricasvt"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/543462643561"><i class="fa-brands fa-whatsapp"></i></a>
+                    </span>
+                </p>
+                <a href="./productos.html"><button type="button" class="btn btn-danger mx-auto">Ver
+                        productos</button></a>
+            </div>
+        </div>
+        <!-- jumbotron fin -->
     </header>
     <main class="main-productos" id="main">
         <!-- section producto 1 inicio-->
@@ -52,7 +128,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quas.</p>
         </section>
         <!-- section producto 2 fin-->
-        
+
         <!-- section producto 3 inicio-->
         <section id="muffins" class="sec-productos">
             <h3>Muffins y Cookies</h3>
@@ -60,7 +136,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quas.</p>
         </section>
         <!-- section producto 3 fin-->
-        
+
         <!-- section producto 4 inicio-->
         <section id="alfajores" class="sec-productos">
             <h3>Alfajores</h3>
@@ -68,7 +144,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quas.</p>
         </section>
         <!-- section producto 4 fin-->
-        
+
         <!-- section producto 5 inicio-->
         <section id="cajasDulces" class="sec-productos">
             <h3>Cajas dulces</h3>
@@ -106,7 +182,8 @@
         <div class="logoFooter">
             <h5>Cosas Ricas</h5>
             <img src="../assets/img/logo.webp" alt="logo Cosas Ricas">
-            <a href="https://goo.gl/maps/mNR8PmKY86E2heqm7"><i class="fa-solid fa-location-dot"></i>República de Croacia 1425, Venado Tuerto, Santa Fe, Argentina</a>
+            <a href="https://goo.gl/maps/mNR8PmKY86E2heqm7"><i class="fa-solid fa-location-dot"></i>República de Croacia
+                1425, Venado Tuerto, Santa Fe, Argentina</a>
         </div>
         <!-- logo + ubi fin-->
 
@@ -148,4 +225,5 @@
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
