@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
+/*font-family: 'Playfair Display', serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/*font-family: 'Pacifico', cursive;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header .navbar {
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(35, 32, 31, 0.98);
+  box-shadow: 0 0 15px #4b0303;
+  z-index: 99;
+}
+.header .navbar .navbar-brand {
+  display: flex;
+}
+.header .navbar .navbar-brand .logo {
+  width: 50px;
+  margin: auto 10px;
+}
+.header .navbar .navbar-brand h1 {
+  text-shadow: 0 0 15px #881c1c;
+}
+.header .navbar .navbar-brand h1 span {
+  display: block;
+  padding-left: 15px;
+}
+.header .navbar .navbar-toggler {
+  margin: 20px;
+}
+.header .navbar .navbar-collapse {
+  font-size: 18px;
+}
+.header .navbar .navbar-collapse .dropdown-item {
+  color: #fff;
+}
+.header .navbar .navbar-collapse .dropdown-item:hover {
+  background-color: #881c1c;
+}
+.header .navbar .navbar-collapse .submenu-item {
+  background-color: #312c2b;
+  color: #fa8686;
+}
+.header .navbar .navbar-collapse .submenu-item:hover {
+  background-color: #881c1c;
+}
+.header .navbar .navbar-collapse .redesNav {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding-left: 10px;
+  background-color: transparent;
+  font-weight: 400;
+  text-align: inherit;
+}
+.header .navbar .navbar-collapse .redesNav-item {
+  padding: 10px;
+  color: #fff;
+}
+.header .navbar .navbar-collapse .redesNav-item:focus {
+  background-color: #881c1c;
+  color: #fff;
+  text-decoration: none;
+}
+.header .jumbotron {
+  margin-top: 150px;
+  background-color: transparent;
+  color: black;
+}
+.header .jumbotron .container {
+  background-color: #beb8b6;
+  margin: auto;
+  margin-left: 5%;
+  padding: 20px;
+  border: #4b0303 5px inset;
+  box-shadow: 0 0 15px #4b0303;
+  text-shadow: 0 0 15px #4b0303;
+}
+.header .jumbotron .container h2 {
+  font-size: 22px;
+  font-family: "Pacifico", cursive;
+}
+.header .jumbotron .container p {
+  padding: 5px;
+  font-size: 16px;
+}
+.header .jumbotron .container p .redes a {
+  font-size: 16px;
+  color: black;
+  letter-spacing: 15px;
+}
+.header .jumbotron .container p .redes a:hover {
+  font-size: 32px;
+  color: #881c1c;
+}
+.header .jumbotron .container button {
+  margin: 20px auto;
+  background-color: #881c1c;
+  border: solid 2px white;
+  box-shadow: 0 0 15px black;
+  font-size: 20px;
+}
+.header .jumbotron .container button:hover {
+  background-color: #4b0303;
+  border: solid 2px #fff;
+  color: #fff;
+  text-decoration: none;
+}
+.header .jumbotron .container a:hover {
+  text-decoration: none;
+}
+
+.header-index {
+  background-image: url(../assets/img/muffins-2.png);
+}
+
+.header-productos {
+  background-image: url(../assets/img/postres-4.png);
+}
+
+.header-galeria {
+  background-image: url(../assets/img/frutosRojos.png);
+}
+
+.header-sobreMi {
+  background-image: url(../assets/img/postres-1.png);
+}
+
+.header-contacto {
+  background-image: url(../assets/img/alfajores-4.png);
+}
+
+.boton-subir {
+  z-index: 15;
+  position: fixed;
+  bottom: 250px;
+  right: 5px;
+  background-color: rgba(75, 3, 3, 0.8);
+  border-radius: 100%;
+  border: solid 2px #fff;
+  box-shadow: 0 0 15px #4b0303;
+}
+.boton-subir i {
+  padding: 10px;
+  font-size: 18px;
+  color: #fff;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,59 @@
+.navbar{
+    width: 100%;
+    min-height: $heightNav;
+    background-color: transparentize($colorGris, 0.02);
+    box-shadow: $sombra-15-bordo;
+    z-index: 99;
+
+    & .navbar-brand{
+        display: flex;
+        & .logo {
+            width: 50px;
+            margin: auto 10px;
+        }
+        & h1{
+            text-shadow: $sombra-15-bordoClaro;
+            & span{
+                display: block;
+                padding-left: 15px;
+            }
+        }
+    }
+    & .navbar-toggler{
+        margin: 20px;
+    }
+    & .navbar-collapse{
+        font-size: 18px;
+        & .dropdown-item{
+            color: #fff;
+        }
+        & .dropdown-item:hover{
+            background-color: $colorBordoClaro;
+        }
+        & .submenu-item {
+            background-color: lighten($colorGris, 5%);
+            color: lighten($colorBordo, 60%);
+        }
+        & .submenu-item:hover {
+            background-color: $colorBordoClaro;
+        }
+        & .redesNav{
+            display: block;
+            width: 100%;
+            border: 0;
+            padding-left: 10px;
+            background-color: transparent;
+            font-weight: 400;
+            text-align: inherit;
+        }
+        & .redesNav-item{
+            padding: 10px;
+            color: #fff;
+        }
+        & .redesNav-item:focus {
+            background-color: $colorBordoClaro;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

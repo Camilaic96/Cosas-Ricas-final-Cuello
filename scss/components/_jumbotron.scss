@@ -1,0 +1,51 @@
+@mixin text-jumbo ($sizes, $color) {
+    font-size: $sizes;
+    color: $color;
+}
+.jumbotron{
+    margin-top: calc($heightNav + 50px);
+    background-color: transparent;
+    color: black;
+
+    & .container{
+        background-color: lighten($colorGris,60%);
+        margin: auto;
+        margin-left: 5%;
+        padding: 20px;
+        border: $colorBordo 5px inset;
+        box-shadow: $sombra-15-bordo;
+        text-shadow: $sombra-15-bordo;
+        & h2 {
+            font-size: 22px;
+            font-family: 'Pacifico', cursive;
+        }
+        & p {
+            padding: 5px;
+            font-size: 16px;
+
+            & .redes a {
+                @include text-jumbo(16px, black);
+                letter-spacing: 15px;
+            }
+            & .redes a:hover {
+                @include text-jumbo(32px, $colorBordoClaro);
+            }
+        }
+        & button {
+            margin: 20px auto;
+            background-color: $colorBordoClaro;
+            border: solid 2px white;
+            box-shadow: $sombra-15-negro;
+            font-size: 20px;
+        }
+        & button:hover {
+            background-color: $colorBordo;
+            border: solid 2px #fff;
+            color: #fff;
+            text-decoration: none;
+        }
+        & a:hover {
+            text-decoration: none;
+        }
+    }
+}
