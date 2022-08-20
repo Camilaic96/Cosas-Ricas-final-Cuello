@@ -421,6 +421,90 @@ body {
   background-color: #4b0303;
 }
 
+.footer {
+  min-height: 150px;
+  background-color: #23201f;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  color: #fff;
+}
+.footer .lista {
+  display: none;
+}
+.footer .lista ul {
+  list-style: none;
+  font-size: 0;
+  align-self: center;
+}
+.footer .lista li a {
+  text-decoration: none;
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+.footer .lista li a:hover {
+  color: #df3030;
+}
+.footer .logoFooter {
+  display: none;
+  padding: 5px;
+  font-size: 24px;
+  text-align: center;
+  align-self: center;
+}
+.footer .logoFooter h5 {
+  padding: 5px;
+  font-size: 35px;
+}
+.footer .logoFooter img {
+  height: 40px;
+  width: 40px;
+}
+.footer .logoFooter a {
+  padding: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.footer .logoFooter a:hover {
+  color: #df3030;
+}
+.footer .contactoFooter {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+}
+.footer .contactoFooter h6 {
+  padding: 5px;
+  font-size: 24px;
+}
+.footer .contactoFooter a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  font-size: 16px;
+}
+.footer .contactoFooter a:hover {
+  color: #df3030;
+}
+.footer .contactoFooter p {
+  padding: 5px;
+  font-size: 18px;
+}
+.footer #copyrigth {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: black;
+  padding: 0px;
+  font-size: 16px;
+  color: #fff;
+}
+
 .boton-subir {
   z-index: 15;
   position: fixed;

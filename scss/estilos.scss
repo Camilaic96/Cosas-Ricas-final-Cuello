@@ -15,12 +15,14 @@ html {
 body {
     overflow-x: hidden;
 }
+
 @mixin text ($padding, $sizes, $color) {
     padding: $padding;
     font-size: $sizes;
     color: $color;
 }
-.header{
+
+.header {
     min-height: 100vh;
     width: 100%;
     background-position: center;
@@ -32,25 +34,30 @@ body {
     @import "components/jumbotron";
 }
 
-.header-index{
+.header-index {
     background-image: url(../assets/img/muffins-2.png);
 }
-.header-productos{
+
+.header-productos {
     background-image: url(../assets/img/postres-4.png);
 }
-.header-galeria{
+
+.header-galeria {
     background-image: url(../assets/img/frutosRojos.png);
 }
-.header-sobreMi{
+
+.header-sobreMi {
     background-image: url(../assets/img/postres-1.png);
 }
-.header-contacto{
+
+.header-contacto {
     background-image: url(../assets/img/alfajores-4.png);
 }
 
-.main-index{
+.main-index {
     padding-top: $heightNav;
-    & .sec-index{
+
+    & .sec-index {
         min-height: 40vh;
         padding: 20px 20px 40px 20px;
 
@@ -60,22 +67,25 @@ body {
             @include text (10px, 28px, #fff);
             margin-bottom: 20px;
         }
-        & h4{
+
+        & h4 {
             @include text (10px, 24px, $colorBordoClaro);
             font-style: italic;
             text-transform: uppercase;
             text-shadow: $sombra-15-blanco;
         }
-        & h5{
+
+        & h5 {
             @include text (10px, 24px, $colorBordo);
             font-family: 'Pacifico', cursive;
             font-style: italic;
         }
+
         & .prod-index {
             width: 100%;
             padding: 10px;
-            
-            & .carousel-index{
+
+            & .carousel-index {
                 width: 100%;
                 border: #fff solid 2px;
                 box-shadow: $sombra-15-bordo;
@@ -85,10 +95,12 @@ body {
                 }
             }
         }
-        & p{
+
+        & p {
             @include text (10px, 16px, black);
             text-shadow: $sombra-15-blanco;
         }
+
         & .boton-index {
             margin: 30px;
             background-color: rgb(212, 32, 32);
@@ -97,15 +109,18 @@ body {
             box-shadow: $sombra-15-bordoClaro;
             @include text (5px, 18px, #fff);
         }
+
         & .boton-index:hover {
             background-color: $colorBordoClaro;
             border: solid 4px #fff;
             color: #fff;
             text-decoration: none;
         }
+
         & .img-logo-index {
             box-shadow: 0 0 25px $colorBordoClaro;
         }
+
         & iframe {
             height: 350px;
             width: 100%;
@@ -114,17 +129,19 @@ body {
     }
 }
 
-.main-productos{
-    & .sec-productos{
+.main-productos {
+    & .sec-productos {
         padding: $heightNav 20px 20px 20px;
-        & h3{
+
+        & h3 {
             @include text (10px, 24px, $colorBordo);
             font-family: 'Pacifico', cursive;
             font-style: italic;
             box-shadow: $sombra-15-bordo;
         }
-        & .carousel{
-            & .carousel-prod{
+
+        & .carousel {
+            & .carousel-prod {
                 width: 100%;
                 border: #fff solid 2px;
                 box-shadow: 0 0 15px $colorBordo;
@@ -133,6 +150,7 @@ body {
                     box-shadow: 0 0 15px $colorBordo;
                 }
             }
+
             & .carousel-caption {
                 & a {
                     & button {
@@ -141,6 +159,7 @@ body {
                         border-radius: 10%;
                         font-size: 18px;
                     }
+
                     & button:hover {
                         background-color: $colorBordo;
                         border: solid 4px #fff;
@@ -150,14 +169,15 @@ body {
                 }
             }
         }
-        & p{
+
+        & p {
             @include text (20px, 18px, #fff);
             text-shadow: $sombra-5-bordo;
         }
     }
 }
 
-.main-galeria{
+.main-galeria {
     & .galeria {
         padding-top: $heightNav;
         width: 100%;
@@ -166,7 +186,7 @@ body {
         background-color: #706e6e;
         padding: 20px;
 
-        & .item{
+        & .item {
             height: 400px;
             width: auto;
             margin: 10px;
@@ -176,13 +196,19 @@ body {
         }
 
         $a: 0;
-        @each $productos in tortas , postres , muffins , alfajores , caja {
+
+        @each $productos in tortas,
+        postres,
+        muffins,
+        alfajores,
+        caja {
             @for $i from 1 through 4 {
-                .item#{$i+$a}{
+                .item#{$i+$a} {
                     background-image: url(../assets/img/#{$productos}-#{$i}.webp);
                 }
             }
-            $a: $a+4;  
+
+            $a: $a+4;
         }
     }
 }
@@ -192,13 +218,14 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: space-evenly;
+
     & .sec-sobreMi {
         background-color: rgba(255, 255, 255, 0.3);
         margin: 10px 10%;
         padding: 20px;
         align-self: center;
         border-radius: 5%;
-        
+
         & h3 {
             @include text (10px, 40px, #fff);
             text-shadow: $sombra-15-bordoClaro;
@@ -208,24 +235,26 @@ body {
                 @include text (10px, 20px, #fff);
             }
         }
+
         & p {
             @include text (10px, 16px, #000);
             text-shadow: $sombra-5-blanco;
         }
+
         & img {
             box-shadow: $sombra-15-bordo;
         }
     }
 }
 
-.main-contacto{
+.main-contacto {
     padding-top: $heightNav;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: space-evenly;
 
-    & .datos-contacto{
+    & .datos-contacto {
         height: auto;
         margin: 20px;
         background-color: transparentize($colorGris, 0.2);
@@ -239,11 +268,13 @@ body {
             color: #fff;
             text-decoration: none;
         }
+
         & a:hover {
             color: $colorBordoClaro;
         }
     }
-    & .form-contacto{
+
+    & .form-contacto {
         @extend .datos-contacto;
         background-color: transparentize($colorBordoClaro, 0.2);
         display: flex;
@@ -252,14 +283,103 @@ body {
         & .complForm {
             width: 100%;
         }
+
         & .botonEnviar {
             background-color: $colorGris;
             border: solid 2px #fff;
             @include text (5px, 20px, #fff);
         }
+
         & .botonEnviar:hover {
             background-color: $colorBordo;
         }
+    }
+}
+
+.footer {
+    min-height: 150px;
+    background-color: $colorGris;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    color: #fff;
+
+    @mixin text-footer ($padding1, $sizes1) {
+        padding: $padding1;
+        font-size: $sizes1;
+    }
+
+    & .lista {
+        display: none;
+
+        & ul {
+            list-style: none;
+            font-size: 0;
+            align-self: center;
+        }
+
+        & li a {
+            text-decoration: none;
+            @include text (15px, 18px, #fff);
+        }
+
+        & li a:hover {
+            color: #df3030;
+        }
+    }
+
+    & .logoFooter {
+        display: none;
+        @include text-footer(5px, 24px);
+        text-align: center;
+        align-self: center;
+
+        & h5 {
+            @include text-footer(5px, 35px);
+        }
+        & img {
+            height: 40px;
+            width: 40px;
+        }
+        & a {
+            @include text (5px, 18px, #fff);
+            text-decoration: none;
+        }
+        & a:hover {
+            color: #df3030;
+        }
+    }
+
+    & .contactoFooter {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+
+        & h6 {
+            @include text-footer(5px, 24px);
+        }
+        & a{
+            text-decoration: none;
+            color: #fff;
+            @include text-footer(5px, 16px);
+        }
+        & a:hover{
+            color: #df3030;
+        }
+        & p {
+            @include text-footer(5px, 18px);
+        }
+    }
+
+    & #copyrigth {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: black;
+        @include text (0px, 16px, #fff);
     }
 }
 
