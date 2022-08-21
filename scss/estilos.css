@@ -168,7 +168,7 @@ body {
   color: #fff;
   margin-bottom: 20px;
 }
-.main-index .sec-index h4 {
+.main-index .sec-index .fila-index h4 {
   padding: 10px;
   font-size: 24px;
   color: #881c1c;
@@ -176,32 +176,32 @@ body {
   text-transform: uppercase;
   text-shadow: 0 0 15px #fff;
 }
-.main-index .sec-index h5 {
+.main-index .sec-index .fila-index .prod-index {
+  width: 100%;
   padding: 10px;
-  font-size: 24px;
+}
+.main-index .sec-index .fila-index .prod-index h5 {
+  padding: 10px;
+  font-size: 32px;
   color: #4b0303;
   font-family: "Pacifico", cursive;
   font-style: italic;
 }
-.main-index .sec-index .prod-index {
-  width: 100%;
-  padding: 10px;
-}
-.main-index .sec-index .prod-index .carousel-index {
+.main-index .sec-index .fila-index .prod-index .carousel-index {
   width: 100%;
   border: #fff solid 2px;
   box-shadow: 0 0 15px #4b0303;
 }
-.main-index .sec-index .prod-index .carousel-index img {
+.main-index .sec-index .fila-index .prod-index .carousel-index img {
   box-shadow: 0 0 15px #4b0303;
 }
-.main-index .sec-index p {
+.main-index .sec-index .fila-index p {
   padding: 10px;
   font-size: 16px;
   color: black;
   text-shadow: 0 0 15px #fff;
 }
-.main-index .sec-index .boton-index {
+.main-index .sec-index .fila-index .boton-index {
   margin: 30px;
   background-color: rgb(212, 32, 32);
   border: solid 3px rgb(221, 174, 174);
@@ -211,16 +211,16 @@ body {
   font-size: 18px;
   color: #fff;
 }
-.main-index .sec-index .boton-index:hover {
+.main-index .sec-index .fila-index .boton-index:hover {
   background-color: #881c1c;
   border: solid 4px #fff;
   color: #fff;
   text-decoration: none;
 }
-.main-index .sec-index .img-logo-index {
+.main-index .sec-index .fila-index .img-logo-index {
   box-shadow: 0 0 25px #881c1c;
 }
-.main-index .sec-index iframe {
+.main-index .sec-index .fila-index iframe {
   height: 350px;
   width: 100%;
   box-shadow: 0 0 15px #4b0303;
@@ -454,16 +454,20 @@ body {
   align-self: center;
 }
 .footer .logoFooter h5 {
-  padding: 5px;
+  padding: 10px;
   font-size: 35px;
+  text-shadow: 0 0 15px #4b0303;
 }
 .footer .logoFooter img {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  box-shadow: 0 0 15px #4b0303;
+  margin: 5px;
 }
 .footer .logoFooter a {
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
 }
@@ -519,4 +523,325 @@ body {
   padding: 10px;
   font-size: 18px;
   color: #fff;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .header .jumbotron .container {
+    height: auto;
+  }
+  .header .jumbotron .container h2 {
+    font-size: 35px;
+  }
+  .header .jumbotron .container p {
+    font-size: 20px;
+  }
+  .header .jumbotron .container p .redes a {
+    font-size: 20px;
+    letter-spacing: 15px;
+  }
+  .header .jumbotron .container p .redes a:hover {
+    font-size: 22px;
+  }
+  .main-galeria .galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-contacto .datos-contacto, .main-contacto .form-contacto {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 45%;
+    font-size: 22px;
+  }
+  .main-contacto .form-contacto {
+    height: 450px;
+    width: 45%;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .footer .lista {
+    display: contents;
+  }
+  .footer .contactoFooter {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .footer .contactoFooter h6 {
+    padding: 5px;
+    font-size: 24px;
+  }
+  .footer .contactoFooter a {
+    padding: 5px;
+    font-size: 18px;
+  }
+  .footer #copyrigth {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header .jumbotron {
+    min-height: 40vh;
+  }
+  .header .jumbotron .container {
+    max-width: 40%;
+    height: auto;
+  }
+  .header .jumbotron .container h2 {
+    font-size: 35px;
+  }
+  .header .jumbotron .container p {
+    font-size: 20px;
+  }
+  .header .jumbotron .container p .redes a {
+    font-size: 20px;
+    letter-spacing: 15px;
+  }
+  .header .jumbotron .container p .redes a:hover {
+    font-size: 22px;
+  }
+  .header .navbar-expand-md .submenuProd {
+    position: absolute;
+    display: none;
+  }
+  .header .navbar-expand-md .submenuProd .submenu-item {
+    display: block;
+  }
+  .header .navbar-expand-md ul li:hover ul {
+    display: block;
+    justify-items: center;
+  }
+  .main-index .sec-index h3 {
+    font-size: 38px;
+  }
+  .main-index .sec-index .fila-index h4 {
+    font-size: 32px;
+  }
+  .main-index .sec-index .fila-index h5 {
+    font-size: 28px;
+  }
+  .main-index .sec-index .fila-index p {
+    font-size: 18px;
+  }
+  .main-productos .sec-productos h3 {
+    font-size: 36px;
+  }
+  .main-productos .sec-productos p {
+    font-size: 24px;
+  }
+  .main-galeria .galeria {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 200px);
+    grid-template-areas: "item1 item1 item1 item13 item13" "item1 item1 item1 item9 item3" "item1 item1 item1 item5 item5" "item14 item14 item8 item8 item8" "item2 item2 item8 item8 item8" "item2 item2 item20 item20 item6" "item12 item16 item16 item10 item10" "item18 item18 item7 item10 item10" "item11 item11 item17 item17 item4" "item15 item15 item17 item17 item19";
+  }
+  .main-galeria .galeria .item1 {
+    grid-area: item1;
+  }
+  .main-galeria .galeria .item2 {
+    grid-area: item2;
+  }
+  .main-galeria .galeria .item3 {
+    grid-area: item3;
+  }
+  .main-galeria .galeria .item4 {
+    grid-area: item4;
+  }
+  .main-galeria .galeria .item5 {
+    grid-area: item5;
+  }
+  .main-galeria .galeria .item6 {
+    grid-area: item6;
+  }
+  .main-galeria .galeria .item7 {
+    grid-area: item7;
+  }
+  .main-galeria .galeria .item8 {
+    grid-area: item8;
+  }
+  .main-galeria .galeria .item9 {
+    grid-area: item9;
+  }
+  .main-galeria .galeria .item10 {
+    grid-area: item10;
+  }
+  .main-galeria .galeria .item11 {
+    grid-area: item11;
+  }
+  .main-galeria .galeria .item12 {
+    grid-area: item12;
+  }
+  .main-galeria .galeria .item13 {
+    grid-area: item13;
+  }
+  .main-galeria .galeria .item14 {
+    grid-area: item14;
+  }
+  .main-galeria .galeria .item15 {
+    grid-area: item15;
+  }
+  .main-galeria .galeria .item16 {
+    grid-area: item16;
+  }
+  .main-galeria .galeria .item17 {
+    grid-area: item17;
+  }
+  .main-galeria .galeria .item18 {
+    grid-area: item18;
+  }
+  .main-galeria .galeria .item19 {
+    grid-area: item19;
+  }
+  .main-galeria .galeria .item20 {
+    grid-area: item20;
+  }
+  .main-galeria .galeria .item {
+    height: auto;
+    margin: 0px;
+  }
+  .main-sobreMi .sec-sobreMi p {
+    font-size: 20px;
+  }
+  .main-contacto .datos-contacto, .main-contacto .form-contacto {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 40%;
+    font-size: 24px;
+  }
+  .main-contacto .form-contacto {
+    height: 450px;
+    width: 40%;
+    font-size: 24px;
+  }
+  .footer {
+    grid-template-columns: 5fr 5fr 11fr 10fr;
+    grid-template-rows: auto auto;
+  }
+  .footer .lista {
+    display: contents;
+  }
+  .footer .logoFooter {
+    display: contents;
+    display: flex;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .footer .contactoFooter {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    flex-direction: column;
+  }
+  .footer .contactoFooter h6 {
+    padding: 5px;
+    font-size: 26px;
+  }
+  .footer .contactoFooter a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+  }
+  .footer .contactoFooter a:hover {
+    color: #df3030;
+  }
+  .footer .contactoFooter p {
+    padding: 5px;
+    font-size: 22px;
+  }
+  .footer #copyrigth {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header .jumbotron {
+    min-height: 60vh;
+  }
+  .header .jumbotron .container {
+    max-width: 30%;
+  }
+  .main-index .sec-index h3 {
+    font-size: 40px;
+  }
+  .main-index .sec-index .fila-index h4 {
+    font-size: 38px;
+  }
+  .main-index .sec-index .fila-index h5 {
+    font-size: 36px;
+  }
+  .main-index .sec-index .fila-index p {
+    font-size: 18px;
+  }
+  .main-productos .sec-productos h3 {
+    font-size: 40px;
+  }
+  .main-productos .sec-productos p {
+    font-size: 28px;
+  }
+  .main-galeria .galeria {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    grid-template-areas: "item1 item1 item1 item13 item13 item8 item8 item8" "item1 item1 item1 item11 item11 item8 item8 item8" "item1 item1 item1 item11 item11 item3 item17 item17" "item14 item14 item6 item6 item2 item2 item17 item17" "item7 item7 item6 item6 item2 item2 item4 item4" "item7 item7 item5 item5 item10 item10 item4 item4" "item12 item19 item20 item20 item10 item10 item9 item9" "item18 item18 item20 item20 item16 item15 item9 item9";
+  }
+  .main-sobreMi .sec-sobreMi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+  }
+  .main-sobreMi .sec-sobreMi h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    font-size: 60px;
+  }
+  .main-sobreMi .sec-sobreMi h3 span {
+    font-size: 30px;
+  }
+  .main-sobreMi .sec-sobreMi p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+    font-size: 18px;
+    font-size: 22px;
+  }
+  .main-sobreMi .sec-sobreMi img {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    align-self: center;
+    justify-self: center;
+  }
+  .main-contacto .datos-contacto, .main-contacto .form-contacto {
+    height: 550px;
+    width: 35%;
+    font-size: 30px;
+  }
+  .main-contacto .form-contacto {
+    height: 550px;
+    width: 35%;
+    font-size: 30px;
+  }
+  .footer .contactoFooter h6 {
+    padding: 5px;
+    font-size: 26px;
+  }
+  .footer .contactoFooter a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 28px;
+  }
+  .footer .contactoFooter a:hover {
+    color: #df3030;
+  }
+  .footer .contactoFooter p {
+    padding: 5px;
+    font-size: 22px;
+  }
 }/*# sourceMappingURL=estilos.css.map */

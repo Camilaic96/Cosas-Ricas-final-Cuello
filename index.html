@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,11 +14,14 @@
     <!-- favicon fin -->
 
     <!----------- linkeo libreria awesome comienzo -------------->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!----------- linkeo libreria awesome fin ------------------->
 
     <!----------- linkeo libreria bootstrap comienzo -------------->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!----------- linkeo libreria bootstrap fin ------------------->
 
     <!----------- linkeo libreria AOS comienzo -------------->
@@ -30,6 +34,7 @@
 
     <title>Cosas Ricas</title>
 </head>
+
 <body>
     <header class="header header-index">
         <!-- barra inicio -->
@@ -54,13 +59,19 @@
                         <a class="dropdown-item" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="dropdown-item" href="./pages/productos.html">Productos<i class="fa-solid fa-angle-down"></i></a>
+                        <a class="dropdown-item" href="./pages/productos.html">Productos<i
+                                class="fa-solid fa-angle-down"></i></a>
                         <ul class="navbar-nav submenuProd">
-                            <li class="nav-item"><a class="dropdown-item submenu-item" href="./pages/productos.html#tortas">Tortas</a></li>
-                            <li class="nav-item"><a class="dropdown-item submenu-item" href="./pages/productos.html#postres">Postres</a></li>
-                            <li class="nav-item"><a class="dropdown-item submenu-item" href="./pages/productos.html#muffins">Muffins y cookies</a></li>
-                            <li class="nav-item"><a class="dropdown-item submenu-item" href="./pages/productos.html#alfajores">Alfajores</a></li>
-                            <li class="nav-item"><a class="dropdown-item submenu-item" href="./pages/productos.html#cajasDulces">Cajas dulces</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./pages/productos.html#tortas">Tortas</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./pages/productos.html#postres">Postres</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./pages/productos.html#muffins">Muffins y cookies</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./pages/productos.html#alfajores">Alfajores</a></li>
+                            <li class="nav-item"><a class="dropdown-item submenu-item"
+                                    href="./pages/productos.html#cajasDulces">Cajas dulces</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -73,8 +84,10 @@
                         <a class="dropdown-item" href="./pages/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item redesNav">
-                        <a href="https://www.instagram.com/cosasricasvt/"><i class="fa-brands fa-instagram redesNav-item"></i></a>
-                        <a href="https://www.facebook.com/cosasricasvt"><i class="fa-brands fa-facebook-f redesNav-item"></i></a>
+                        <a href="https://www.instagram.com/cosasricasvt/"><i
+                                class="fa-brands fa-instagram redesNav-item"></i></a>
+                        <a href="https://www.facebook.com/cosasricasvt"><i
+                                class="fa-brands fa-facebook-f redesNav-item"></i></a>
                         <a href="https://wa.me/543462643561"><i class="fa-brands fa-whatsapp redesNav-item"></i></a>
                     </li>
                 </ul>
@@ -94,19 +107,20 @@
                         <a href="https://wa.me/543462643561"><i class="fa-brands fa-whatsapp"></i></a>
                     </span>
                 </p>
-                <a href="./pages/productos.html"><button type="button" class="btn btn-danger mx-auto">Ver productos</button></a>
+                <a href="./pages/productos.html"><button type="button" class="btn btn-danger mx-auto">Ver
+                        productos</button></a>
             </div>
         </div>
         <!-- jumbotron fin -->
     </header>
     <main class="main-index text-center" id="main">
-        <!-- section productos destacados inicio-->
+        <!-- seccion productos destacados inicio-->
         <section class="sec-index">
             <h3>Productos personalizados a tu medida</h3>
-            <h4>destacados</h4>
-            <div>
+            <div class="row fila-index">
+                <h4 class="col-12">Destacados</h4>
                 <!-- carousel tortas inicio-->
-                <div class="prod-index">
+                <div class="mx-auto prod-index col-10 col-sm-7 col-md-4">
                     <h5>Tortas</h5>
                     <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -145,7 +159,7 @@
                 </div>
                 <!-- carousel tortas fin-->
                 <!-- carousel postres inicio-->
-                <div class="prod-index">
+                <div class="mx-auto prod-index col-10 col-sm-7 col-md-4">
                     <h5>Postres</h5>
                     <div id="demo1" class="carousel slide" data-ride="carousel">
 
@@ -185,7 +199,7 @@
                 </div>
                 <!-- carousel postres fin-->
                 <!-- carousel muffins y cookies inicio-->
-                <div class="prod-index">
+                <div class="mx-auto prod-index col-10 col-sm-7 col-md-4">
                     <h5>Muffins y Cookies</h5>
                     <div id="demo2" class="carousel slide" data-ride="carousel">
 
@@ -227,32 +241,45 @@
                     </div>
                 </div>
                 <!-- carousel muffins y cookies fin-->
+                <!-- boton ver mas inicio-->
+                <div class="col-12"><a href="./pages/productos.html"><button type="button" class="btn btn-danger mx-auto boton-index">Ver más</button></a></div>
+                <!-- boton ver mas fin-->
             </div>
-            <!-- boton ver mas inicio-->
-            <div><a href="./pages/productos.html"><button type="button" class="btn btn-danger mx-auto boton-index">Ver más</button></a></div>
-            <!-- boton ver mas fin-->
         </section>
-        <!-- section productos destacados fin-->
+        <!-- seccion productos destacados fin-->
 
-        <!-- section inicios Cosas Ricas inicio-->
+        <!-- seccion inicios Cosas Ricas inicio -->
         <section class="sec-index">
             <h3>Sobre Cosas Ricas</h3>
-            <h4>Los inicios</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut a tempora rerum fugiat sit fugit sed. Temporibus unde labore repellat. Eum corrupti quam nostrum perferendis fugiat assumenda, in amet voluptas.</p>
-            <!--AGREGAR BOTON CONOCER MÁS-->
-            <img src="./assets/img/logoViejo.png" alt="Primer logo de Cosas Ricas">
+            <div class="row fila-index">
+                <div class="col-12 col-sm-7 col-md-6 offset-lg-2 col-lg-4">
+                    <h4>Los inicios</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure incidunt iusto autem eveniet ipsam alias aspernatur voluptas possimus ut excepturi. Obcaecati exercitationem iure magni voluptatibus quisquam. Iste recusandae alias, ratione eligendi cum placeat. Numquam reprehenderit voluptatem natus. Eligendi quo sit eos, consequatur eveniet delectus sequi rerum laudantium quaerat consectetur asperiores.</p>
+                    <a href="./pages/sobre-mi.html"><button type="button" class="btn btn-danger mx-auto boton-index">Conocer más</button></a>
+                </div>
+                <div class="col-12 col-sm-5 col-lg-4">
+                    <img src="./assets/img/logoViejo.png" alt="Primer logo de Cosas Ricas" class="img-fluid rounded-circle p-1 img-logo-index">
+                </div>
+            </div>
         </section>
-        <!-- section inicios Cosas Ricas fin-->
-        
-        <!-- section info pedidos inicio-->
+        <!-- seccion inicios Cosas Ricas fin -->
+
+        <!-- seccion info pedidos inicio-->
         <section class="sec-index">
             <h3>Recibí tu pedido a domicilio o retiralo en el nuestro</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.15125894974!2d-61.9432219!3d-33.730904599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c864dba70c5a97%3A0x6d92b4d9e564bef7!2sRep%C3%BAblica%20de%20Croacia%201425%2C%20S2600%20Venado%20Tuerto%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1660927300049!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <h4>Pedidos por encargo con 48hs. de anticipación</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci asperiores itaque inventore voluptate autem nobis officiis numquam exercitationem illum vel necessitatibus, corporis eveniet distinctio aspernatur. Totam accusantium odit accusamus.</p>
-            <!--AGREGAR BOTON ENCARGAR-->
+            <div class="row fila-index">
+                <div class="col-12 col-sm-5 offset-lg-2 col-lg-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.15125894974!2d-61.9432219!3d-33.730904599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c864dba70c5a97%3A0x6d92b4d9e564bef7!2sRep%C3%BAblica%20de%20Croacia%201425%2C%20S2600%20Venado%20Tuerto%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1660927300049!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!--<i class="fa-solid fa-motorcycle moto" ></i>-->
+                </div>
+                <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+                    <h4>Pedidos con 48 hs. de anticipación</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus earum explicabo, iusto doloremque animi maxime ratione pariatur delectus consequuntur natus nobis officiis expedita nihil voluptatum accusantium voluptates eum tempora hic.</p>
+                    <a href="./pages/contacto.html"><button type="button" class="btn btn-danger mx-auto boton-index">Encargar</button></a>
+                </div>
+            </div>
         </section>
-        <!-- section info pedidos fin-->
+        <!-- secion info pedidos fin-->
     </main>
     <footer class="footer">
         <!-- lista de secciones inicio-->
@@ -280,15 +307,18 @@
         <!-- lista de productos fin-->
 
         <!-- logo + ubi inicio-->
-        <div class="logoFooter">
-            <h5>Cosas Ricas</h5>
-            <img src="./assets/img/logo.webp" alt="logo Cosas Ricas">
-            <a href="https://goo.gl/maps/mNR8PmKY86E2heqm7"><i class="fa-solid fa-location-dot"></i>República de Croacia 1425, Venado Tuerto, Santa Fe, Argentina</a>
+        <div class="logoFooter text-center">
+            <a href="./index.html">
+                <h5>Cosas Ricas</h5>
+                <img src="./assets/img/logo.webp" alt="logo Cosas Ricas">
+            </a>
+            <a href="https://goo.gl/maps/mNR8PmKY86E2heqm7"><i class="fa-solid fa-location-dot"></i>República de Croacia
+                1425, Venado Tuerto, Santa Fe, Argentina</a>
         </div>
         <!-- logo + ubi fin-->
 
         <!-- datos contacto + redes inicio-->
-        <div class="contactoFooter">
+        <div class="contactoFooter text-center">
             <h6>Contáctanos</h6>
             <a href="https://wa.me/543462643561"><i class="fa-solid fa-phone"></i> cel: <span>3462 64-3561</span></a>
             <p>Síguenos en nuestras redes</p>
@@ -315,11 +345,15 @@
     <script>
         AOS.init();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
