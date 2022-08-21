@@ -86,7 +86,7 @@ body {
   text-align: inherit;
 }
 .header .navbar .navbar-collapse .redesNav-item {
-  padding: 10px;
+  padding: 5px;
   color: #fff;
 }
 .header .navbar .navbar-collapse .redesNav-item:hover, .header .navbar .navbar-collapse .redesNav-item:focus {
@@ -282,7 +282,7 @@ body {
   border-radius: 10%;
   box-shadow: 0 0 15px #881c1c;
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
 }
 .main-index .sec-index .fila-index .boton-index:hover {
@@ -1129,8 +1129,8 @@ body {
   .main-index .sec-index .fila-index h4 {
     font-size: 32px;
   }
-  .main-index .sec-index .fila-index h5 {
-    font-size: 28px;
+  .main-index .sec-index .fila-index .prod-index h5 {
+    font-size: 26px;
   }
   .main-index .sec-index .fila-index p {
     font-size: 18px;
@@ -1278,9 +1278,9 @@ body {
     font-size: 40px;
   }
   .main-index .sec-index .fila-index h4 {
-    font-size: 38px;
+    font-size: 40px;
   }
-  .main-index .sec-index .fila-index h5 {
+  .main-index .sec-index .fila-index .prod-index h5 {
     font-size: 36px;
   }
   .main-index .sec-index .fila-index p {

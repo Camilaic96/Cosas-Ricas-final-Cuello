@@ -127,7 +127,7 @@ body {
                 border: solid 3px rgb(221, 174, 174);
                 border-radius: 10%;
                 box-shadow: $sombra-15-bordoClaro;
-                @include text (5px, 18px, #fff);
+                @include text (5px, 20px, #fff);
             }
             & .boton-index:hover {
                 background-color: $colorBordoClaro;
