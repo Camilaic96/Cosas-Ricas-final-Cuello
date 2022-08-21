@@ -199,41 +199,52 @@ body {
     }
 }
 
-.main-galeria {
+.main-galeria{
     & .galeria {
-        padding-top: $heightNav;
         width: 100%;
         min-height: 100vh;
         display: grid;
         background-color: #706e6e;
         padding: 20px;
+        padding-top: $heightNav;
 
         & .item {
             height: 400px;
             width: auto;
-            margin: 10px;
             border: solid 1px $colorGris;
+            box-shadow: 0px 0px 25px #333;
             background-position: center;
             background-size: cover;
+            margin: 10px;
         }
-
+    
+        $sombras: (
+            tortas: red,
+            postres: green,
+            muffins: orange,
+            alfajores: blue,
+            caja: violet
+        );
         $a: 0;
-
-        @each $productos in tortas,
-        postres,
-        muffins,
-        alfajores,
-        caja {
+        @each $productos in tortas , postres , muffins , alfajores , caja {
             @for $i from 1 through 4 {
-                .item#{$i+$a} {
+                .item#{$i+$a}{
                     background-image: url(../assets/img/#{$productos}-#{$i}.webp);
                 }
+                @each $prod, $color in $sombras {
+                    .item#{$i+$a}:hover {
+                        @if $productos == $prod {
+                            box-shadow: 0px 0px 15px $color inset;
+                        }
+                        background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/#{$productos}-#{$i}.webp);
+                    }
+                }
             }
-
-            $a: $a+4;
+            $a: $a+4;  
         }
     }
 }
+@import "components/modal";
 
 .main-sobreMi {
     padding-top: $heightNav;

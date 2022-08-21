@@ -346,80 +346,488 @@ body {
 }
 
 .main-galeria .galeria {
-  padding-top: 100px;
   width: 100%;
   min-height: 100vh;
   display: grid;
   background-color: #706e6e;
   padding: 20px;
+  padding-top: 100px;
 }
 .main-galeria .galeria .item {
   height: 400px;
   width: auto;
-  margin: 10px;
   border: solid 1px #23201f;
+  box-shadow: 0px 0px 25px #333;
   background-position: center;
   background-size: cover;
+  margin: 10px;
 }
 .main-galeria .galeria .item1 {
   background-image: url(../assets/img/tortas-1.webp);
 }
+.main-galeria .galeria .item1:hover {
+  box-shadow: 0px 0px 15px red inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-1.webp);
+}
+.main-galeria .galeria .item1:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-1.webp);
+}
+.main-galeria .galeria .item1:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-1.webp);
+}
+.main-galeria .galeria .item1:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-1.webp);
+}
+.main-galeria .galeria .item1:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-1.webp);
+}
 .main-galeria .galeria .item2 {
   background-image: url(../assets/img/tortas-2.webp);
+}
+.main-galeria .galeria .item2:hover {
+  box-shadow: 0px 0px 15px red inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-2.webp);
+}
+.main-galeria .galeria .item2:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-2.webp);
+}
+.main-galeria .galeria .item2:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-2.webp);
+}
+.main-galeria .galeria .item2:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-2.webp);
+}
+.main-galeria .galeria .item2:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-2.webp);
 }
 .main-galeria .galeria .item3 {
   background-image: url(../assets/img/tortas-3.webp);
 }
+.main-galeria .galeria .item3:hover {
+  box-shadow: 0px 0px 15px red inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-3.webp);
+}
+.main-galeria .galeria .item3:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-3.webp);
+}
+.main-galeria .galeria .item3:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-3.webp);
+}
+.main-galeria .galeria .item3:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-3.webp);
+}
+.main-galeria .galeria .item3:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-3.webp);
+}
 .main-galeria .galeria .item4 {
   background-image: url(../assets/img/tortas-4.webp);
+}
+.main-galeria .galeria .item4:hover {
+  box-shadow: 0px 0px 15px red inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-4.webp);
+}
+.main-galeria .galeria .item4:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-4.webp);
+}
+.main-galeria .galeria .item4:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-4.webp);
+}
+.main-galeria .galeria .item4:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-4.webp);
+}
+.main-galeria .galeria .item4:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/tortas-4.webp);
 }
 .main-galeria .galeria .item5 {
   background-image: url(../assets/img/postres-1.webp);
 }
+.main-galeria .galeria .item5:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-1.webp);
+}
+.main-galeria .galeria .item5:hover {
+  box-shadow: 0px 0px 15px green inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-1.webp);
+}
+.main-galeria .galeria .item5:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-1.webp);
+}
+.main-galeria .galeria .item5:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-1.webp);
+}
+.main-galeria .galeria .item5:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-1.webp);
+}
 .main-galeria .galeria .item6 {
   background-image: url(../assets/img/postres-2.webp);
+}
+.main-galeria .galeria .item6:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-2.webp);
+}
+.main-galeria .galeria .item6:hover {
+  box-shadow: 0px 0px 15px green inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-2.webp);
+}
+.main-galeria .galeria .item6:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-2.webp);
+}
+.main-galeria .galeria .item6:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-2.webp);
+}
+.main-galeria .galeria .item6:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-2.webp);
 }
 .main-galeria .galeria .item7 {
   background-image: url(../assets/img/postres-3.webp);
 }
+.main-galeria .galeria .item7:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-3.webp);
+}
+.main-galeria .galeria .item7:hover {
+  box-shadow: 0px 0px 15px green inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-3.webp);
+}
+.main-galeria .galeria .item7:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-3.webp);
+}
+.main-galeria .galeria .item7:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-3.webp);
+}
+.main-galeria .galeria .item7:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-3.webp);
+}
 .main-galeria .galeria .item8 {
   background-image: url(../assets/img/postres-4.webp);
+}
+.main-galeria .galeria .item8:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-4.webp);
+}
+.main-galeria .galeria .item8:hover {
+  box-shadow: 0px 0px 15px green inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-4.webp);
+}
+.main-galeria .galeria .item8:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-4.webp);
+}
+.main-galeria .galeria .item8:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-4.webp);
+}
+.main-galeria .galeria .item8:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/postres-4.webp);
 }
 .main-galeria .galeria .item9 {
   background-image: url(../assets/img/muffins-1.webp);
 }
+.main-galeria .galeria .item9:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-1.webp);
+}
+.main-galeria .galeria .item9:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-1.webp);
+}
+.main-galeria .galeria .item9:hover {
+  box-shadow: 0px 0px 15px orange inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-1.webp);
+}
+.main-galeria .galeria .item9:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-1.webp);
+}
+.main-galeria .galeria .item9:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-1.webp);
+}
 .main-galeria .galeria .item10 {
   background-image: url(../assets/img/muffins-2.webp);
+}
+.main-galeria .galeria .item10:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-2.webp);
+}
+.main-galeria .galeria .item10:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-2.webp);
+}
+.main-galeria .galeria .item10:hover {
+  box-shadow: 0px 0px 15px orange inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-2.webp);
+}
+.main-galeria .galeria .item10:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-2.webp);
+}
+.main-galeria .galeria .item10:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-2.webp);
 }
 .main-galeria .galeria .item11 {
   background-image: url(../assets/img/muffins-3.webp);
 }
+.main-galeria .galeria .item11:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-3.webp);
+}
+.main-galeria .galeria .item11:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-3.webp);
+}
+.main-galeria .galeria .item11:hover {
+  box-shadow: 0px 0px 15px orange inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-3.webp);
+}
+.main-galeria .galeria .item11:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-3.webp);
+}
+.main-galeria .galeria .item11:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-3.webp);
+}
 .main-galeria .galeria .item12 {
   background-image: url(../assets/img/muffins-4.webp);
+}
+.main-galeria .galeria .item12:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-4.webp);
+}
+.main-galeria .galeria .item12:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-4.webp);
+}
+.main-galeria .galeria .item12:hover {
+  box-shadow: 0px 0px 15px orange inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-4.webp);
+}
+.main-galeria .galeria .item12:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-4.webp);
+}
+.main-galeria .galeria .item12:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/muffins-4.webp);
 }
 .main-galeria .galeria .item13 {
   background-image: url(../assets/img/alfajores-1.webp);
 }
+.main-galeria .galeria .item13:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-1.webp);
+}
+.main-galeria .galeria .item13:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-1.webp);
+}
+.main-galeria .galeria .item13:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-1.webp);
+}
+.main-galeria .galeria .item13:hover {
+  box-shadow: 0px 0px 15px blue inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-1.webp);
+}
+.main-galeria .galeria .item13:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-1.webp);
+}
 .main-galeria .galeria .item14 {
   background-image: url(../assets/img/alfajores-2.webp);
+}
+.main-galeria .galeria .item14:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-2.webp);
+}
+.main-galeria .galeria .item14:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-2.webp);
+}
+.main-galeria .galeria .item14:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-2.webp);
+}
+.main-galeria .galeria .item14:hover {
+  box-shadow: 0px 0px 15px blue inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-2.webp);
+}
+.main-galeria .galeria .item14:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-2.webp);
 }
 .main-galeria .galeria .item15 {
   background-image: url(../assets/img/alfajores-3.webp);
 }
+.main-galeria .galeria .item15:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-3.webp);
+}
+.main-galeria .galeria .item15:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-3.webp);
+}
+.main-galeria .galeria .item15:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-3.webp);
+}
+.main-galeria .galeria .item15:hover {
+  box-shadow: 0px 0px 15px blue inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-3.webp);
+}
+.main-galeria .galeria .item15:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-3.webp);
+}
 .main-galeria .galeria .item16 {
   background-image: url(../assets/img/alfajores-4.webp);
+}
+.main-galeria .galeria .item16:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-4.webp);
+}
+.main-galeria .galeria .item16:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-4.webp);
+}
+.main-galeria .galeria .item16:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-4.webp);
+}
+.main-galeria .galeria .item16:hover {
+  box-shadow: 0px 0px 15px blue inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-4.webp);
+}
+.main-galeria .galeria .item16:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/alfajores-4.webp);
 }
 .main-galeria .galeria .item17 {
   background-image: url(../assets/img/caja-1.webp);
 }
+.main-galeria .galeria .item17:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-1.webp);
+}
+.main-galeria .galeria .item17:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-1.webp);
+}
+.main-galeria .galeria .item17:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-1.webp);
+}
+.main-galeria .galeria .item17:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-1.webp);
+}
+.main-galeria .galeria .item17:hover {
+  box-shadow: 0px 0px 15px violet inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-1.webp);
+}
 .main-galeria .galeria .item18 {
   background-image: url(../assets/img/caja-2.webp);
+}
+.main-galeria .galeria .item18:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-2.webp);
+}
+.main-galeria .galeria .item18:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-2.webp);
+}
+.main-galeria .galeria .item18:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-2.webp);
+}
+.main-galeria .galeria .item18:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-2.webp);
+}
+.main-galeria .galeria .item18:hover {
+  box-shadow: 0px 0px 15px violet inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-2.webp);
 }
 .main-galeria .galeria .item19 {
   background-image: url(../assets/img/caja-3.webp);
 }
+.main-galeria .galeria .item19:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-3.webp);
+}
+.main-galeria .galeria .item19:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-3.webp);
+}
+.main-galeria .galeria .item19:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-3.webp);
+}
+.main-galeria .galeria .item19:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-3.webp);
+}
+.main-galeria .galeria .item19:hover {
+  box-shadow: 0px 0px 15px violet inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-3.webp);
+}
 .main-galeria .galeria .item20 {
   background-image: url(../assets/img/caja-4.webp);
+}
+.main-galeria .galeria .item20:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-4.webp);
+}
+.main-galeria .galeria .item20:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-4.webp);
+}
+.main-galeria .galeria .item20:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-4.webp);
+}
+.main-galeria .galeria .item20:hover {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-4.webp);
+}
+.main-galeria .galeria .item20:hover {
+  box-shadow: 0px 0px 15px violet inset;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../assets/img/caja-4.webp);
+}
+
+.img-modal {
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-modal-1 {
+  background-image: url(../../assets/img/tortas-1.webp);
+}
+
+.img-modal-2 {
+  background-image: url(../../assets/img/tortas-2.webp);
+}
+
+.img-modal-3 {
+  background-image: url(../../assets/img/tortas-3.webp);
+}
+
+.img-modal-4 {
+  background-image: url(../../assets/img/tortas-4.webp);
+}
+
+.img-modal-5 {
+  background-image: url(../../assets/img/postres-1.webp);
+}
+
+.img-modal-6 {
+  background-image: url(../../assets/img/postres-2.webp);
+}
+
+.img-modal-7 {
+  background-image: url(../../assets/img/postres-3.webp);
+}
+
+.img-modal-8 {
+  background-image: url(../../assets/img/postres-4.webp);
+}
+
+.img-modal-9 {
+  background-image: url(../../assets/img/muffins-1.webp);
+}
+
+.img-modal-10 {
+  background-image: url(../../assets/img/muffins-2.webp);
+}
+
+.img-modal-11 {
+  background-image: url(../../assets/img/muffins-3.webp);
+}
+
+.img-modal-12 {
+  background-image: url(../../assets/img/muffins-4.webp);
+}
+
+.img-modal-13 {
+  background-image: url(../../assets/img/alfajores-1.webp);
+}
+
+.img-modal-14 {
+  background-image: url(../../assets/img/alfajores-2.webp);
+}
+
+.img-modal-15 {
+  background-image: url(../../assets/img/alfajores-3.webp);
+}
+
+.img-modal-16 {
+  background-image: url(../../assets/img/alfajores-4.webp);
+}
+
+.img-modal-17 {
+  background-image: url(../../assets/img/caja-1.webp);
+}
+
+.img-modal-18 {
+  background-image: url(../../assets/img/caja-2.webp);
+}
+
+.img-modal-19 {
+  background-image: url(../../assets/img/caja-3.webp);
+}
+
+.img-modal-20 {
+  background-image: url(../../assets/img/caja-4.webp);
 }
 
 .main-sobreMi {
