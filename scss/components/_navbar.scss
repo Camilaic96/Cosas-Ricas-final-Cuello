@@ -4,6 +4,7 @@
     background-color: transparentize($colorGris, 0.02);
     box-shadow: $sombra-15-bordo;
     z-index: 99;
+    
 
     & .navbar-brand{
         display: flex;
@@ -19,8 +20,16 @@
             }
         }
     }
+    & .navbar-brand:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
     & .navbar-toggler{
         margin: 20px;
+    }
+    & .navbar-toggler:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
     }
     & .navbar-collapse{
         font-size: 18px;
@@ -50,6 +59,7 @@
             padding: 10px;
             color: #fff;
         }
+        & .redesNav-item:hover,
         & .redesNav-item:focus {
             background-color: $colorBordoClaro;
             color: #fff;

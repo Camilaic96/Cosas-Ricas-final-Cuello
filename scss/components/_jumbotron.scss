@@ -15,6 +15,17 @@
         border: $colorBordo 5px inset;
         box-shadow: $sombra-15-bordo;
         text-shadow: $sombra-15-bordo;
+        animation-name: moverDerecha;
+        animation-duration: 3s;
+        @keyframes moverDerecha {
+            0% {
+                transform: translateX(-500px);
+            }
+            100% {
+                transform: translateX(0px);
+            }
+        }
+
         & h2 {
             font-size: 22px;
             font-family: 'Pacifico', cursive;
@@ -43,6 +54,8 @@
             border: solid 2px #fff;
             color: #fff;
             text-decoration: none;
+            transform: scale(1.1);
+            transition: 0.5s;
         }
         & a:hover {
             text-decoration: none;

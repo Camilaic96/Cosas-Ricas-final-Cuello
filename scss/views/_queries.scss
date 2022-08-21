@@ -19,7 +19,7 @@
                         letter-spacing: 15px;
                     }
                     & .redes a:hover {
-                        font-size: 22px;
+                        font-size: 30px;
                     }
                 }
             }
@@ -85,7 +85,7 @@
                         letter-spacing: 15px;
                     }
                     & .redes a:hover {
-                        font-size: 22px;
+                        font-size: 30px;
                     }
                 }
             }
@@ -95,12 +95,10 @@
             & .submenuProd {
                 position: absolute;
                 display: none;
-
                 & .submenu-item {
                     display: block;
                 }
             }
-
             & ul li:hover ul {
                 display: block;
                 justify-items: center;
